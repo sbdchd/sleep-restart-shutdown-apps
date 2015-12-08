@@ -5,13 +5,19 @@ Some simple bash scripts packaged into app form.
 Enables sleep, restart, and shutdown from Spotlight.
 
 
-Platypus
-
-
 ## Setup
 
-### From Source
+### Homebrew Cask (Best Method)
 
+```bash
+brew tap sbdchd/sleep-restart-shutdown
+
+brew cask install sleep
+brew cask install restart
+brew cask install shutdown
+```
+
+### Source
 
 Install Platypus
 
@@ -47,7 +53,7 @@ Shutdown.app
 platypus -a Shutdown -o None -i ./images/shutdown.icns -p /bin/sh -V '0.1' -R -x -l ./shutdown.sh
 ```
 
-### From Zip
+### Zip
 
 Download Apps from [Releases](https://github.com/sbdchd/sleep-restart-shutdown-apps/releases)
 
