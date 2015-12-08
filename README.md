@@ -4,15 +4,30 @@ Some simple bash scripts packaged into app form.
 
 Enables sleep, restart, and shutdown from Spotlight.
 
-## Requirements
 
 Platypus
+
+
+## Setup
+
+### From Source
+
+
+Install Platypus
 
 ```bash
 brew install platypus
 ```
 
-## Setup
+Clone Repo
+
+```bash
+git clone https://github.com/sbdchd/sleep-restart-shutdown-apps
+```
+
+```bash
+cd sleep-restart-shutdown-apps
+```
 
 Sleep.app
 
@@ -32,6 +47,9 @@ Shutdown.app
 platypus -a Shutdown -o None -i ./images/shutdown.icns -p /bin/sh -V '0.1' -R -x -l ./shutdown.sh
 ```
 
+### From Zip
+
+Download Apps from [Releases](https://github.com/sbdchd/sleep-restart-shutdown-apps/releases)
 
 ## Uses
 
