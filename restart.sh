@@ -1,3 +1,2 @@
 #!/bin/sh
-osascript -e 'tell app $SYSEVENTS to restart'
-exit 0
+osascript -e 'tell app "loginwindow" to «event aevtrrst»'
