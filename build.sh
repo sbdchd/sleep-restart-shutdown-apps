@@ -13,3 +13,7 @@ zip -r Shutdown-v$VERSION.zip Shutdown.app
 rm -rf Sleep.app
 rm -rf Restart.app
 rm -rf Shutdown.app
+
+shasum -a 256 Shutdown-v$VERSION.zip
+shasum -a 256 Sleep-v$VERSION.zip
+shasum -a 256 Restart-v$VERSION.zip
