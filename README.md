@@ -4,6 +4,27 @@ Some simple bash scripts packaged into app form.
 
 Enables sleep, restart, and shutdown from Spotlight.
 
+UPDATE:
+
+It turns out that there are a lot of [keyboard shortcuts](https://support.apple.com/en-us/HT201236).
+
+Sleep
+
+```
+<shift><ctrl><powerbutton>
+```
+
+Restart
+
+```
+<cmd><ctrl><powerbutton>
+```
+
+Shutdown
+
+```
+<cmd><ctrl><option><powerbutton>
+```
 
 ## Setup
 
